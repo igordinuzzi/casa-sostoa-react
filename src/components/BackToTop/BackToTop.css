@@ -1,0 +1,25 @@
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--primary-color); 
+    color: var(--background-color);
+    padding: 10px;
+    height: 50px; /* Set height */
+    width: 50px; /* Set width to the same as height for a perfect circle */
+    border-radius: 50%;
+    font-size: var(--font-xs);
+    display: none; /* Initially hidden */
+    z-index: 1000; /* Ensure it's above other content */
+    cursor: pointer;
+    text-align: center;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    display: flex; /* Enables flexbox */
+  }
+  
+  
+  .back-to-top:hover {
+    background-color: var(--secondary-color); /* Slightly different color on hover */
+    color: var(--primary-color);
+  }

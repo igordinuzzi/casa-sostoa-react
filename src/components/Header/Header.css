@@ -1,0 +1,40 @@
+.navbar {
+    background-color: var(--primary-color);
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+
+  .nav-link {
+    color: var(--background-color);
+    transition: color 0.6s ease; /* Agregamos una transición suave de 0.3 segundos para el cambio de color */
+  }
+  
+  .nav-link:hover {
+    color: var(--secondary-color);
+  }
+  
+  .nav-link.nav-link-active {
+    color: var(--secondary-color) !important;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: var(--background-color);
+  }
+
+  .burger {
+    color: var(--background-color);
+ }
+
+  @media (max-width: 992px) {
+    .navbar {
+      flex-direction: column;
+    }
+  }
+  

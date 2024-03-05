@@ -1,0 +1,35 @@
+.banner-section {
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Adjusted height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .banner-section h2 {
+    font-size: 2.5rem;
+    color: var(--background-color); 
+    margin-bottom: 1rem;
+  }
+  
+  .banner-section p {
+    font-size: 1.25rem;
+    color: #fff; 
+  }
+  
+  .banner-section a {
+    color: var(--background-color);
+    font-weight: bold;
+    text-decoration: none;
+    /* Initial border setup for a smooth transition */
+    border-bottom: 2px solid transparent; /* Make the border transparent initially */
+    transition: color 0.3s ease, border-bottom-color 0.3s ease; /* Smooth transition for color and border color */
+  }
+  
+  .banner-section a:hover {
+    color: var(--background-color); /* Adjust if you want a different color on hover */
+    border-bottom-color: var(--background-color); /* Change border color instead of setting border directly */
+    text-decoration: none;
+  }

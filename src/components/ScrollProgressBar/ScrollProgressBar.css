@@ -1,0 +1,10 @@
+/* ScrollProgressBar.css */
+.scroll-progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 8px;
+    background-color: var(--secondary-color);
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  

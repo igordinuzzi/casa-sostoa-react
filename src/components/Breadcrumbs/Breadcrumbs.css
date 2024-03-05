@@ -1,0 +1,24 @@
+.breadcrumb {
+    background-color: var(--background-color);
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style individual breadcrumb items */
+  .breadcrumb-item {
+    font-size: var(--font-xs); /* Set font size */
+    color: var(--primary-color);
+  }
+  
+  /* Style links within breadcrumb items */
+  .breadcrumb-item a {
+    color: var(--primary-color); /* Make the link color match the item text color */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  /* Add a hover effect to breadcrumb links */
+  .breadcrumb-item a:hover {
+    color: var(--primary-color); /* Darker shade on hover */
+    text-decoration: underline; /* Add underline on hover for better accessibility */
+  }
