@@ -4,7 +4,7 @@
 
 ## Introduction
 Casa Sostoa is a vibrant and dynamic art gallery located in the heart of Málaga. Our website serves as a portal for art enthusiasts to explore current, past, and upcoming exhibitions, learn about featured artists, and stay updated on cultural events. Designed with responsiveness and accessibility in mind, the site ensures a seamless experience for all visitors.
-[Live link](https://igordinuzzi.github.io/Casa-Sostoa/)
+[Live link](https://igordinuzzi.github.io/casa-sostoa-react/)
 
 ## Features
 
