@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/casa-sostoa-react/static/css/main.27f2edc2.css",
+    "main.js": "/casa-sostoa-react/static/js/main.8d1aa3aa.js",
+    "static/js/453.55fcfe6d.chunk.js": "/casa-sostoa-react/static/js/453.55fcfe6d.chunk.js",
+    "index.html": "/casa-sostoa-react/index.html",
+    "main.27f2edc2.css.map": "/casa-sostoa-react/static/css/main.27f2edc2.css.map",
+    "main.8d1aa3aa.js.map": "/casa-sostoa-react/static/js/main.8d1aa3aa.js.map",
+    "453.55fcfe6d.chunk.js.map": "/casa-sostoa-react/static/js/453.55fcfe6d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27f2edc2.css",
+    "static/js/main.8d1aa3aa.js"
+  ]
+}
